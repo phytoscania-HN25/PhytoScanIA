@@ -1,0 +1,34 @@
+# dependencias
+/node_modules
+
+# builds
+/build
+/dist
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp
+
+# env (⚠️ super importante)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# coverage
+/coverage
+
+# misc
+*.log

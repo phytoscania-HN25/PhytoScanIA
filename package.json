@@ -1,0 +1,49 @@
+{
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "setup:docs": "node scripts/setupDocs.js",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,md}\""
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.57.4",
+    "@tensorflow/tfjs": "^4.18.0",
+    "autoprefixer": "^10.0.0",
+    "csvtojson": "^2.0.10",
+    "dexie": "^4.2.0",
+    "framer-motion": "^12.23.13",
+    "idb-keyval": "^6.2.2",
+    "leaflet": "^1.9.4",
+    "leaflet.heat": "^0.2.0",
+    "leaflet.markercluster": "^1.5.3",
+    "localforage": "^1.10.0",
+    "lucide-react": "^0.542.0",
+    "postcss": "^8",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^7.8.2",
+    "react-scripts": "^5.0.0",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "main": "/index.js",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "type": "module"
+}
